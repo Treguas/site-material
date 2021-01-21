@@ -1,0 +1,156 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  background-color: #333;
+  padding: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+header nav a {
+  color: aquamarine;
+  text-decoration: none;
+  padding: 0 48px;
+  font-size: 1.5em;
+  line-height: 1;
+  transition: opacity 0.9s;
+}
+
+header nav a:hover {
+    color: rgb(5, 129, 88);
+    opacity: 0.4;
+}
+
+.titulo {
+  margin-top: 64px;
+  padding: 32px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+
+#container-principal {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p-clientes,
+.p-produtos {
+  margin-top: 24px;
+}
+
+/* Clientes */
+#secao-clientes {
+  background-color: #ffffff;
+}
+
+#clientes {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 16px 0 64px 0;
+  flex-wrap: wrap; /*ajusta img a pagina ao redimensionar*/
+}
+
+.depoimento {
+  width: 300px;
+  margin: auto;
+}
+
+.depoimento p {
+  line-height: 1;
+  text-align: center;
+}
+
+#clientes img {
+  width: 400px;
+  border-radius: 24px;
+}
+/* Fim clientes */
+
+/* Produtos */
+#secao-produtos {
+  background-color: #333;
+}
+
+#titulo-produtos {
+  color: #fff;
+}
+
+#produtos {
+  padding: 16px 0 64px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  color: #ffffff;
+}
+
+#produtos img {
+  width: 400px;
+  opacity: 0.8;
+  border-radius: 14px;
+  flex-wrap: wrap;
+}
+
+#produtos img:hover{
+  opacity: 1;
+}
+
+#produtos .produto {
+  padding: 32px;
+}
+
+.descricao {
+  width: 400px;
+  margin: auto;
+}
+
+.descricao p {
+  text-align: center;
+}
+
+.descricao p:nth-child(2) {
+  font-size: 2em;
+}
+
+/* Fim produtos */
+
+#msg {
+  visibility: hidden;
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+}
+
+#msg img {
+  width: 64px;
+}
+
+.logo-iv2 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 240px;
+}
+
+span {
+  display: block;
+  text-align: center;
+  margin-bottom: 34px;
+  text-transform: uppercase;
+}
+
