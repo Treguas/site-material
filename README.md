@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Curso Beginner Faculdade IV2
 > Exercicios e Projetos feitos durante o curso Beginner da faculdade IV2.
 
@@ -21,3 +22,7 @@ No curso Beginner garantimos uma experiência completa de aprendizagem para voc�
 
 Projeto:
 1. [Frontend](faça Download e execute no navegador de sua preferência)
+=======
+# site-material
+Projeto desenvolvido na semana 00 do curso begginers da faculdade IV2
+>>>>>>> 09e15cb42cde0020ebb0f7ffc59f550a2bc361c9
